@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="iWeather" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXI-kD-1JF">
+                                <rect key="frame" x="114" y="75" width="143" height="54"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.75005425347222221" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="BigIcon" translatesAutoresizingMaskIntoConstraints="NO" id="BMV-Im-C15">
+                                <rect key="frame" x="59" y="191" width="256" height="173"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Copyright (c) 2016 SKCD, All rights reserved" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RWq-a0-cpg">
+                                <rect key="frame" x="18" y="638" width="339" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="BMV-Im-C15" firstAttribute="leading" secondItem="RWq-a0-cpg" secondAttribute="trailing" constant="-296" id="JRz-Ig-SLd"/>
+                            <constraint firstItem="RWq-a0-cpg" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="KM8-Ze-ufi"/>
+                            <constraint firstItem="BMV-Im-C15" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Swe-GO-u4x"/>
+                            <constraint firstItem="BMV-Im-C15" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="TAD-yF-guB"/>
+                            <constraint firstItem="UXI-kD-1JF" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="b40-mx-QIP"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="RWq-a0-cpg" secondAttribute="bottom" constant="5" id="oFh-Zc-9Kn"/>
+                            <constraint firstItem="UXI-kD-1JF" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="55" id="pVl-9S-FxP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BigIcon" width="76" height="76"/>
+    </resources>
+</document>
